@@ -1,0 +1,22 @@
+{
+    "app": {
+        "restApiEndpoint": {
+            "version1ProductPath": "/v1/product",
+            "version2ProductPath": "/v2/product"
+        },
+        "webServer": {
+            "protocol": "http",
+            "host": "localhost",
+            "port": 5000
+        }
+    },
+    "mongoDB": {
+        "connectionString": "mongodb://localhost/product"
+    },
+    "mySql":{
+        "host": "localhost",
+        "user": "root",
+        "password": "abc123",
+        "database": "book"
+    }
+}

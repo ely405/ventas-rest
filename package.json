@@ -1,0 +1,36 @@
+{
+  "name": "beco",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "test",
+    "mocha",
+    "chai",
+    "jquery",
+    "nodemon",
+    "node",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "ely405",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "config": "^1.26.1",
+    "mongoose": "^4.11.5",
+    "morgan": "^1.8.2"
+  }
+}

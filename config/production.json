@@ -1,0 +1,14 @@
+{
+    "app": {
+        "webServer": {
+            "host": "127.0.0.1",
+            "port": 5000
+        }
+    }, 
+    "mongoDB": {
+        "connectionString": "mongodb://127.0.0.1/product"
+    },
+    "mySql":{
+        "host": "127.0.0.1"
+    }
+}

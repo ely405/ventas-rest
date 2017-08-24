@@ -1,0 +1,8 @@
+// {
+//     "DBHost": "mongodb://localhost:27017/product"
+// }
+
+{"mongoDB": {
+        "connectionString": "mongodb://127.0.0.1/product"
+    }
+}
